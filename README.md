@@ -5,7 +5,8 @@ PC(Windows or Mac）にDocker DesktopとDocker Composeがインストールさ�
 ## [Deploy with Docker Compose](https://docs.dify.ai/getting-started/install-self-hosted/docker-compose)
 ### Clone Dify
 Clone the Dify source code to your local machine:
-Assuming current latest version is 0.15.3（現在v1.0.1が最新バージョンですが、0.15.3がおすすめ）
+Assuming current latest version is 0.15.3<br>
+（現在v1.0.1が最新バージョンですが、0.15.3がおすすめ）
 ```
 git clone https://github.com/langgenius/dify.git --branch 0.15.3
 ```
