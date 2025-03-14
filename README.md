@@ -1,7 +1,7 @@
 # dify_docker
 DifyをDockerで動かすためのメモ。<br>
-PC(Windows or Mac）にDocker DesktopとDocker Composeがインストールされている前提。<br>
-以下、ターミナルを利用。
+PC(Windows or Mac）にDocker DesktopとDocker Composeがインストールされている前提です。<br>
+以下、ターミナルを利用します。
 ## [Deploy with Docker Compose](https://docs.dify.ai/getting-started/install-self-hosted/docker-compose)
 ### Clone Dify
 Clone the Dify source code to your local machine:
