@@ -1,6 +1,6 @@
 # dify_docker
 こちらはDifyをPCのDockerで動かすためのメモです。<br>
-DifyのSaaS版の無料のSandboxを使っていたのですが、v1.0にメジャーバージョンアップしてからAPI登録のやり方がわからなくなってしまい、API利用のエラーを解消できなかったです。<br>
+DifyのSaaS版の無料のSandboxを使っていたのですが、v1.0にメジャーバージョンアップしてからAPI登録のやり方がわからなくなってしまい、まだAPI利用のエラーを解消できていない状態です。<br>
 そこで、PCにDocker Composeでv0.15.3をデプロイする方が速かったので、こちらに手順をメモしました。<br>
 Difyについては[こちら](https://github.com/langgenius/dify/blob/main/README_JA.md)をご覧ください。<br>
 
