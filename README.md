@@ -36,8 +36,7 @@ docker compose pull
 docker compose up -d
 ```
 ### Difyにアクセス
-Local environment<br>
-Dockerでコンテナが起動したら、下記のURLでDifyを使えます。
+Dockerでコンテナが起動したら、下記のURLでDifyを使えます。<br>
 [http://localhost/install](http://localhost/install)
 
 ### 実行中のコンテナを停止する
