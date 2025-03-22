@@ -9,7 +9,7 @@ Difyについては[こちら](https://github.com/langgenius/dify/blob/main/READ
 PC(Windows or Mac）にDocker DesktopとDocker Composeがインストールされている前提です。<br>
 以下、ターミナルを利用します。<br>
 Difyのソースコードをローカル環境にクローンします。<br>
-現在v1.0.1が最新バージョンですが、いくつか不具合があるようなので、0.15.3がおすすめです。<br>
+3/20にv1.1.1がリリースされました。v1では不具合の報告がされているので、現状では0.15.3がおすすめです。<br>
 ```
 git clone https://github.com/langgenius/dify.git --branch 0.15.3
 ```
