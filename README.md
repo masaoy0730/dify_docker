@@ -1,7 +1,6 @@
 # dify_docker
 こちらはDifyをPCのDockerで動かすためのメモです。<br>
-DifyのSaaS版の無料のSandboxを使っていたのですが、v1.0にメジャーバージョンアップしてからAPI登録のやり方がわからなくなってしまい、まだAPI利用のエラーを解消できていない状態です。<br>
-そこで、PCにDocker Composeでv0.15.3をデプロイする方が速かったので、こちらに手順をメモしました。<br>
+DifyのSaaS版の無料のSandboxを使っていたのですが、そこで、PCにDocker ComposeでVersion 1.6.0をデプロイする方が速かったので、こちらに手順をメモしました。<br>
 Difyについては[こちら](https://github.com/langgenius/dify/blob/main/README_JA.md)をご覧ください。<br>
 
 ## [Difyのサイト「Docker Composeでデプロイする」を参照しています](https://docs.dify.ai/ja-jp/getting-started/install-self-hosted/docker-compose)
@@ -9,9 +8,9 @@ Difyについては[こちら](https://github.com/langgenius/dify/blob/main/READ
 PC(Windows or Mac）にDocker DesktopとDocker Composeがインストールされている前提です。<br>
 以下、ターミナルを利用します。<br>
 Difyのソースコードをローカル環境にクローンします。<br>
-3/20にv1.1.1がリリースされました。v1では不具合の報告がされているので、現状では0.15.3がおすすめです。<br>
+Version 1.6.0をインストールしたところ、モデルプロバイダーのプラグインのインストールも問題なくなっていたので、Version 1.6.0を使っています。<br>
 ```
-git clone https://github.com/langgenius/dify.git --branch 0.15.3
+git clone https://github.com/langgenius/dify.git --branch 1.6.0
 ```
 ### Difyをスタートする
 ```
